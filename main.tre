@@ -1,0 +1,74 @@
+ÀÄmain
+   ÀÄMAIN  0/105  Ram=0
+      ÃÄ@cinit1  (Inline)  Ram=0
+      ÃÄsetup  0/164  Ram=0
+      ³  ÃÄlcd_init  (Inline)  Ram=2
+      ³  ³  ÃÄ@delay_ms1  0/20  Ram=1
+      ³  ³  ÃÄ@I2C_WRITE_1  0/74  Ram=1
+      ³  ³  ÃÄi2c_send_nibble  0/84  Ram=3
+      ³  ³  ³  ÃÄ@I2C_WRITE_1  0/74  Ram=1
+      ³  ³  ³  ÃÄ@I2C_WRITE_1  0/74  Ram=1
+      ³  ³  ³  ÃÄ@I2C_WRITE_1  0/74  Ram=1
+      ³  ³  ³  ÃÄ@I2C_WRITE_1  0/74  Ram=1
+      ³  ³  ³  ÃÄ@I2C_WRITE_1  0/74  Ram=1
+      ³  ³  ³  ÀÄ@I2C_WRITE_1  0/74  Ram=1
+      ³  ³  ÃÄ@delay_ms1  0/20  Ram=1
+      ³  ³  ÃÄi2c_send_nibble  0/84  Ram=3
+      ³  ³  ³  ÀÄ*
+      ³  ³  ÃÄ@delay_ms1  0/20  Ram=1
+      ³  ³  ÃÄi2c_send_nibble  0/84  Ram=3
+      ³  ³  ³  ÀÄ*
+      ³  ³  ÃÄ@delay_ms1  0/20  Ram=1
+      ³  ³  ÃÄ@const643  0/8  Ram=0
+      ³  ³  ÃÄlcd_send_byte  0/82  Ram=3
+      ³  ³  ³  ÃÄ@I2C_WRITE_1  0/74  Ram=1
+      ³  ³  ³  ÃÄi2c_send_nibble  0/84  Ram=3
+      ³  ³  ³  ³  ÀÄ*
+      ³  ³  ³  ÀÄi2c_send_nibble  0/84  Ram=3
+      ³  ³  ³     ÀÄ*
+      ³  ³  ÃÄ@delay_ms1  0/20  Ram=1
+      ³  ³  ÀÄlcd_clear  0/10  Ram=0
+      ³  ³     ÃÄlcd_send_byte  0/82  Ram=3
+      ³  ³     ³  ÀÄ*
+      ³  ³     ÀÄ@delay_ms1  0/20  Ram=1
+      ³  ÃÄlcd_clear  0/10  Ram=0
+      ³  ³  ÀÄ*
+      ³  ÃÄlcd_gotoxy  0/55  Ram=7
+      ³  ³  ÀÄlcd_send_byte  0/82  Ram=3
+      ³  ³     ÀÄ*
+      ³  ÃÄ@PSTRINGC7_653  0/86  Ram=4
+      ³  ³  ÃÄlcd_putc  0/37  Ram=1
+      ³  ³  ³  ÃÄlcd_clear  0/10  Ram=0
+      ³  ³  ³  ³  ÀÄ*
+      ³  ³  ³  ÃÄlcd_gotoxy  0/55  Ram=7
+      ³  ³  ³  ³  ÀÄ*
+      ³  ³  ³  ÃÄlcd_send_byte  0/82  Ram=3
+      ³  ³  ³  ³  ÀÄ*
+      ³  ³  ³  ÀÄlcd_send_byte  0/82  Ram=3
+      ³  ³  ³     ÀÄ*
+      ³  ³  ÀÄlcd_putc  0/37  Ram=1
+      ³  ³     ÀÄ*
+      ³  ÀÄ@delay_ms1  0/20  Ram=1
+      ÃÄ@ITOF  0/31  Ram=2
+      ÃÄcalculatePID  0/292  Ram=8
+      ³  ÃÄ@ADDFF  0/321  Ram=16
+      ³  ÃÄ@ADDFF  0/321  Ram=16
+      ³  ÃÄ@ADDFF  0/321  Ram=16
+      ³  ÃÄ@MULFF  0/117  Ram=13
+      ³  ÃÄ@MULFF  0/117  Ram=13
+      ³  ÃÄ@ADDFF  0/321  Ram=16
+      ³  ÃÄ@MULFF  0/117  Ram=13
+      ³  ÃÄ@ADDFF  0/321  Ram=16
+      ³  ÃÄ@FLT  0/63  Ram=10
+      ³  ÃÄ@ADDFF  0/321  Ram=16
+      ³  ÃÄ@FLT  0/63  Ram=10
+      ³  ÀÄ@ADDFF  0/321  Ram=16
+      ÃÄlcd_gotoxy  0/55  Ram=7
+      ³  ÀÄ*
+      ÃÄ@PSTRINGC7_653  0/86  Ram=4
+      ³  ÀÄ*
+      ÃÄlcd_gotoxy  0/55  Ram=7
+      ³  ÀÄ*
+      ÀÄ@PSTRINGR_653  0/24  Ram=2
+         ÀÄlcd_putc  0/37  Ram=1
+            ÀÄ*

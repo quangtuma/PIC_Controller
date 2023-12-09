@@ -1,0 +1,21 @@
+#include <main.h>
+
+long valueADC;
+
+void setup() {
+   lcd_init();
+   lcd_clear();
+   lcd_gotoxy(1, 1);
+   printf(lcd_putc, "Hello");
+   setup_adc(ADC_CLOCK_INTERNAL);
+   setup_adc_ports(AN0);
+   setup_adc_channel(0);
+}
+
+void main() {
+   setup();
+   
+   while(1) {
+      
+   }
+}

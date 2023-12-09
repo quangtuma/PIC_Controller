@@ -1,0 +1,152 @@
+004-005 @WRITE_PROGRAM_MEMORY8.P1
+004-005 @READ_PROGRAM_MEMORY8.P2
+008     PSP_DATA
+015     CCP_1
+015     CCP_1_LOW
+016     CCP_1_HIGH
+01B     CCP_2
+01B     CCP_2_LOW
+01C     CCP_2_HIGH
+020     @TRIS_C
+021     lcd_total_rows
+022     lcd_total_columns
+023     new_row_request
+024     BACKLIGHT_LED
+025-026 strtok.save
+027-02A error
+02B-02E lastError
+02F-032 integral
+033-036 derivative
+037-03A setpoint
+03B-03E output
+03F-042 valueADC
+043     lcd_init.i
+043-046 atan2.y
+043-046 calculatePID.measured_value
+043-044 @ITOF.P1
+043     @PSTRINGC7_653.@SCRATCH1
+043     @PSTRINGR_653.@SCRATCH1
+044     lcd_init.@SCRATCH1
+044     @PSTRINGC7_653.@SCRATCH2
+044     @PSTRINGR_653.@SCRATCH2
+045     @PSTRINGC7_653.@SCRATCH3
+046     lcd_putc.in_data
+046     @PSTRINGC7_653.@SCRATCH4
+047-04A @FLT.P1
+047     @delay_ms1.P2
+047     lcd_gotoxy.x
+047-04A atan2.x
+047     calculatePID.@SCRATCH1
+048     lcd_gotoxy.y
+048     calculatePID.@SCRATCH2
+049     lcd_gotoxy.row
+049     calculatePID.@SCRATCH3
+04A     lcd_gotoxy.column
+04A     calculatePID.@SCRATCH4
+04B-04E @ADDFF.P1
+04B     lcd_gotoxy.row_addr
+04B-04E atan2.z
+04B-04E @MULFF.P1
+04B-04E @FLT.P2
+04C     lcd_gotoxy.lcd_address
+04D     lcd_gotoxy.@SCRATCH1
+04E     lcd_send_byte.data
+04F     lcd_send_byte.type
+04F-052 @MULFF.P1
+04F.0   atan2.sign
+04F-052 @ADDFF.P1
+04F     @FLT.@SCRATCH1
+050     atan2.quad
+050     lcd_send_byte.@SCRATCH1
+050     @FLT.@SCRATCH2
+051     i2c_send_nibble.data
+052     i2c_send_nibble.type
+053     i2c_send_nibble.@SCRATCH1
+053     @MULFF.@SCRATCH1
+053     @ADDFF.@SCRATCH1
+054     @I2C_WRITE_1.P1
+054     @MULFF.@SCRATCH2
+054     @ADDFF.@SCRATCH2
+055     @MULFF.@SCRATCH3
+055     @ADDFF.@SCRATCH3
+056     @MULFF.@SCRATCH4
+056     @ADDFF.@SCRATCH4
+057     @MULFF.@SCRATCH5
+057     @ADDFF.@SCRATCH5
+058     @ADDFF.@SCRATCH6
+059     @ADDFF.@SCRATCH7
+05A     @ADDFF.@SCRATCH8
+077     @SCRATCH
+078     @SCRATCH
+078     _RETURN_
+079     @SCRATCH
+07A     @SCRATCH
+09C.6   C1OUT
+09C.7   C2OUT
+10D-10E @WRITE_PROGRAM_MEMORY8.P1
+10D-10E @READ_PROGRAM_MEMORY8.P2
+
+ROM Allocation:
+000004  LCD_INIT_STRING.call
+000008  LCD_INIT_STRING.data
+00000C  @const902.call
+00000F  @const907.call
+000013  @delay_ms1
+000027  @I2C_WRITE_1
+000071  i2c_send_nibble
+0000C5  lcd_send_byte
+000117  lcd_clear
+000121  lcd_gotoxy
+000158  lcd_putc
+00017D  @PSTRINGC7_653
+0001D3  lcd_init
+0001D3  setup
+000277  @ITOF
+000296  @ADDFF
+0003D7  @MULFF
+00044C  @FLT
+00048B  calculatePID
+0005AF  @PSTRINGR_653
+0005C7  @cinit1
+0005C7  MAIN
+0005F5  @cinit2
+
+Project Directory:
+    C:\Users\QUANG TU PC\Desktop\PIC Project\PIC_Controller\
+
+Project Files:
+    main.c                                                  [09-Dec-23 16:29  CRC=280982E1]
+    main.h                                                  [09-Dec-23 16:23  CRC=EF59D5CC]
+    ..\..\..\..\..\Program Files (x86)\PICC\Devices\16F877A.h [18-Apr-14 16:56  CRC=4F277C97]
+    lcd_i2c.c                                               [09-Dec-23 11:53  CRC=7DF4F34E]
+    ..\..\..\..\..\Program Files (x86)\PICC\Drivers\string.h [10-Apr-14 09:04  CRC=662B2714]
+    ..\..\..\..\..\Program Files (x86)\PICC\Drivers\stddef.h [16-Jul-10 09:27  CRC=897CEC6C]
+    ..\..\..\..\..\Program Files (x86)\PICC\Drivers\ctype.h [03-Jan-08 13:55  CRC=2D1F019F]
+    ..\..\..\..\..\Program Files (x86)\PICC\Drivers\math.h  [28-Sep-12 11:35  CRC=546412C9]
+    pid.c                                                   [09-Dec-23 16:25  CRC=9E5EFFD5]
+
+Source signature=9268F024
+
+Units:
+    main (main)
+
+Compiler Settings:
+    Processor:      PIC16F877A
+    Pointer Size:   16
+    ADC Range:      0-65535
+    Opt Level:      9
+    Short,Int,Long: UNSIGNED: 1,8,16
+    Float,Double:   32,32
+    Compile Mode:       CCS5
+
+Output Files:
+    XREF file:   main.xsym
+    Errors:      main.err
+    Ext Symbols: main.esym
+    INHX8:       main.hex
+    Symbols:     main.sym
+    List:        main.lst
+    Debug/COFF:  main.cof
+    Project:     main.ccspjt
+    Call Tree:   main.tre
+    Statistics:  main.STA

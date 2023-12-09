@@ -1,0 +1,14 @@
+#include <main.h>
+
+void setup() {
+   lcd_init();
+   lcd_clear();
+   lcd_gotoxy(1, 1);
+   printf(lcd_putc, "Hello");
+}
+
+void main() {
+   setup();
+   
+   while(1);
+}
