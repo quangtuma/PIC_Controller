@@ -112,18 +112,18 @@ ROM Allocation:
 0005F5  @cinit2
 
 Project Directory:
-    C:\Users\QUANG TU PC\Desktop\PIC Project\PIC_Controller\
+    G:\Personality\pic16f877a_pump\PIC_Controller\
 
 Project Files:
-    main.c                                                  [09-Dec-23 16:29  CRC=280982E1]
-    main.h                                                  [09-Dec-23 16:23  CRC=EF59D5CC]
-    ..\..\..\..\..\Program Files (x86)\PICC\Devices\16F877A.h [18-Apr-14 16:56  CRC=4F277C97]
-    lcd_i2c.c                                               [09-Dec-23 11:53  CRC=7DF4F34E]
-    ..\..\..\..\..\Program Files (x86)\PICC\Drivers\string.h [10-Apr-14 09:04  CRC=662B2714]
-    ..\..\..\..\..\Program Files (x86)\PICC\Drivers\stddef.h [16-Jul-10 09:27  CRC=897CEC6C]
-    ..\..\..\..\..\Program Files (x86)\PICC\Drivers\ctype.h [03-Jan-08 13:55  CRC=2D1F019F]
-    ..\..\..\..\..\Program Files (x86)\PICC\Drivers\math.h  [28-Sep-12 11:35  CRC=546412C9]
-    pid.c                                                   [09-Dec-23 16:25  CRC=9E5EFFD5]
+    main.c                                                  [11-Dec-23 15:56  CRC=280982E1]
+    main.h                                                  [11-Dec-23 15:49  CRC=EF59D5CC]
+    C:\Program Files (x86)\PICC\Devices\16F877A.h           [18-Apr-14 16:56  CRC=4F277C97]
+    lcd_i2c.c                                               [11-Dec-23 16:36  CRC=7DF4F34E]
+    C:\Program Files (x86)\PICC\Drivers\string.h            [10-Apr-14 09:04  CRC=662B2714]
+    C:\Program Files (x86)\PICC\Drivers\stddef.h            [16-Jul-10 09:27  CRC=897CEC6C]
+    C:\Program Files (x86)\PICC\Drivers\ctype.h             [03-Jan-08 13:55  CRC=2D1F019F]
+    C:\Program Files (x86)\PICC\Drivers\math.h              [28-Sep-12 11:35  CRC=546412C9]
+    pid.c                                                   [11-Dec-23 15:49  CRC=9E5EFFD5]
 
 Source signature=9268F024
 

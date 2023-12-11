@@ -1,0 +1,14 @@
+*** Error 12 "G:\Personality\pic16f877a_pump\PIC_Controller\I2C_LCD.c" Line 112(13,20): Undefined identifier   I2C_LCD
+*** Error 12 "G:\Personality\pic16f877a_pump\PIC_Controller\I2C_LCD.c" Line 113(13,20): Undefined identifier   I2C_LCD
+*** Error 12 "G:\Personality\pic16f877a_pump\PIC_Controller\I2C_LCD.c" Line 114(13,20): Undefined identifier   I2C_LCD
+*** Error 12 "G:\Personality\pic16f877a_pump\PIC_Controller\I2C_LCD.c" Line 115(12,19): Undefined identifier   I2C_LCD
+*** Error 12 "main.c" Line 6(12,13): Undefined identifier  -- lcd_init
+*** Error 76 "main.c" Line 7(13,14): Expect ;
+*** Error 12 "main.c" Line 8(14,15): Undefined identifier  -- lcd_gotoxy
+*** Error 12 "main.c" Line 9(11,19): Undefined identifier   lcd_putc
+*** Error 12 "main.c" Line 26(17,18): Undefined identifier  -- lcd_gotoxy
+*** Error 12 "main.c" Line 27(14,22): Undefined identifier   lcd_putc
+*** Error 12 "main.c" Line 28(17,18): Undefined identifier  -- lcd_gotoxy
+*** Error 12 "main.c" Line 29(14,22): Undefined identifier   lcd_putc
+      12 Errors,  0 Warnings.
+Build Failed.

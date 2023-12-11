@@ -15,12 +15,12 @@ Lines Stmts  %   Files
 ----- ----- ---  -----
    32    18   4  main.c
    22     0   0  main.h
-  672     0   0  ..\..\..\..\..\Program Files (x86)\PICC\Devices\16F877A.h
+  672     0   0  C:\Program Files (x86)\PICC\Devices\16F877A.h
   146    75  15  lcd_i2c.c
-  423   125  26  ..\..\..\..\..\Program Files (x86)\PICC\Drivers\string.h
-   32     0   0  ..\..\..\..\..\Program Files (x86)\PICC\Drivers\stddef.h
-   28     0   0  ..\..\..\..\..\Program Files (x86)\PICC\Drivers\ctype.h
- 2229   257  53  ..\..\..\..\..\Program Files (x86)\PICC\Drivers\math.h
+  423   125  26  C:\Program Files (x86)\PICC\Drivers\string.h
+   32     0   0  C:\Program Files (x86)\PICC\Drivers\stddef.h
+   28     0   0  C:\Program Files (x86)\PICC\Drivers\ctype.h
+ 2229   257  53  C:\Program Files (x86)\PICC\Drivers\math.h
    33    13   3  pid.c
 ----- -----
  3617   488 Total
@@ -43,23 +43,23 @@ Page ROM  %  RAM    Vol Diff  Functions:
 0    292  18    8    397  5.3  calculatePID
 0    164  10    0    197  1.7  setup
 0      3   0    0             @const902
-0     86   5    4    176  2.5  @PSTRINGC7_653
+0     86   5    4             @PSTRINGC7_653
 0    105   7    0    200  2.6  MAIN
 0      4   0    0             @const907
 0     24   2    2             @PSTRINGR_653
  Inline         0             @cinit1
 
 Program metrics:
-    Functions               10
+    Functions               9
     Statements              488
     Comments                535
-    Volume (V)              5634
-    Difficulty (D)          40.3
-    Effort to implement (E) 227185
-    Time to implement (T)   3 hours, 30 minutes
+    Volume (V)              5251
+    Difficulty (D)          37.7
+    Effort to implement (E) 197842
+    Time to implement (T)   3 hours, 3 minutes
     Est Delivered Bugs (B)  1
     Cyclomatic Complexity   18
-    Maintainability (MI)    27
+    Maintainability (MI)    44
 
  Segment     Used  Free
 -----------  ----  ----

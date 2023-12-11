@@ -1,6 +1,6 @@
-CCS PCM C Compiler, Version 5.025, 50547               09-Dec-23 16:29
+CCS PCM C Compiler, Version 5.025, 26289               11-Dec-23 16:36
 
-               Filename:   C:\Users\QUANG TU PC\Desktop\PIC Project\PIC_Controller\main.lst
+               Filename:   G:\Personality\pic16f877a_pump\PIC_Controller\main.lst
 
                ROM used:   1584 words (19%)
                            Largest free fragment is 2048
@@ -802,7 +802,7 @@ CCS PCM C Compiler, Version 5.025, 50547               09-Dec-23 16:29
 .................... //----------------------------------------------------------------------------- 
 ....................  
 ....................  
-.................... #define LCD_ADDR  0x4E//             0x4E        //I2C slave address for LCD module 
+.................... #define LCD_ADDR  0x27//             0x4E        //I2C slave address for LCD module 
 .................... byte lcd_total_rows = 4;//       2           //Number of rows: 1,2,3 or 4 
 .................... byte lcd_total_columns =20 ;//    16          //Number of columns: 1...20 
 ....................  
@@ -971,7 +971,7 @@ CCS PCM C Compiler, Version 5.025, 50547               09-Dec-23 16:29
 00E4:  BSF    03.5
 00E5:  MOVWF  07
 ....................         i2c_write(LCD_ADDR); 
-00E6:  MOVLW  4E
+00E6:  MOVLW  27
 00E7:  BCF    03.5
 00E8:  MOVWF  54
 00E9:  CALL   027
@@ -1100,7 +1100,7 @@ CCS PCM C Compiler, Version 5.025, 50547               09-Dec-23 16:29
 01FB:  BSF    03.5
 01FC:  MOVWF  07
 ....................    i2c_write(LCD_ADDR); 
-01FD:  MOVLW  4E
+01FD:  MOVLW  27
 01FE:  BCF    03.5
 01FF:  MOVWF  54
 0200:  CALL   027
@@ -4439,8 +4439,8 @@ CCS PCM C Compiler, Version 5.025, 50547               09-Dec-23 16:29
 026E:  BSF    03.5
 026F:  BCF    06.1
 ....................     
-....................    delay_ms(10); 
-0270:  MOVLW  0A
+....................    delay_ms(20); 
+0270:  MOVLW  14
 0271:  BCF    03.5
 0272:  MOVWF  47
 0273:  CALL   013

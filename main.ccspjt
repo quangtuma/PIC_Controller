@@ -59,7 +59,7 @@ AdditionalOptionString=
 Fixed=
 
 [ProjectLog]
-Days=1
+Days=2
 D1=09-12-2023
 D1_L=13
 D1_L1=[44557]Project Closed.
@@ -74,17 +74,34 @@ D1_L9=[58953]Started Editing.
 D1_L10=[59679]Stopped Editing.
 D1_L11=[60413]Started Editing.
 D1_L12=[60416]Stopped Editing.
-TotalEdit=43
+TotalEdit=48
 TotalDebug=0
 D1_E=43
 D1_D=0
 D1_L13=[60417]Project Closed.
+D2=11-12-2023
+D2_L=11
+D2_L1=[57348]Project Opened.
+D2_L2=[57374]Started Editing.
+D2_L3=[57691]Stopped Editing.
+D2_L4=[59249]Started Editing.
+D2_L5=[59567]Stopped Editing.
+D2_L6=[59667]Started Editing.
+D2_L7=[59977]Stopped Editing.
+D2_L8=[60101]Started Editing.
+D2_L9=[60612]Stopped Editing.
+D2_E=5
+D2_D=0
+D2_L10=[60967]Project Closed.
+D2_L11=[61043]Project Opened.
 
 [Opened Files]
 1=main.c
 2=main.h
 3=pid.c
-4=
+4=lcd_i2c.c
+5=I2C_LCD.c
+6=
 [Units]
 Count=1
 1=main (main)

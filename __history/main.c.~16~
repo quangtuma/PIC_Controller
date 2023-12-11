@@ -14,7 +14,7 @@ void setup() {
    
    output_bit(PUMP, ON);
    
-   delay_ms(20);
+   delay_ms(10);
 }
 
 void main() {
