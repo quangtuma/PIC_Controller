@@ -10,7 +10,8 @@
 
 #use delay(crystal=20000000)
 
-#include <lcd_i2c.c>
+//#include <lcd_i2c.c>
+#include <I2C_LCD.c>
 #include <string.h>
 #include <math.h>
 #include <pid.c>
